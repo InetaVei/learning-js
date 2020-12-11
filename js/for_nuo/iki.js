@@ -14,23 +14,6 @@ const average = suma / kiekis;
 console.log(`Pazymiu vidurkis yra ${average}`);
 
 
-
-// console.log('--------------');
-
-
-
-const zodis = 'Menulis';
-let isKitosPuses = '';
-
-for (let i = zodis.length - 1; i >= 0; i--) {
-    const zodis1 = zodis[i];
-    isKitosPuses += zodis1;
-}
-console.log(zodis, '<-->', isKitosPuses);
-
-
-console.log('-------------');
-
 /* suskaiciuoti ka gausime susumavus skaicius intervale (imtinai):
 (0, 100);
 (-70, 30);
